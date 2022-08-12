@@ -15,7 +15,7 @@
               <v-text-field class="input-text" placeholder="Mot de passe" prepend-inner-icon="mdi-lock"
                 variant="underlined" type="password">
               </v-text-field>
-              <v-btn class="btn-login" size="large" :rounded="0" color="#e31238" variant="tonal">
+              <v-btn class="btn-login" size="large" :rounded="0" color="#e31238" variant="tonal" @click="login()">
                 Se connecter
               </v-btn>
             </v-container>
@@ -28,6 +28,7 @@
 
 
 <script lang='ts'>
+import router from '@/router'
 import { defineComponent } from 'vue'
 
 
@@ -38,7 +39,13 @@ export default defineComponent({
     return {
       logo: require("../assets/images/raisin.png")
     }
+  },
+  methods: {
+    login() {
+      router.push({ path: '/home' })
+    }
   }
+
 })
 </script>
 
