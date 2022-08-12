@@ -36,7 +36,7 @@ export default defineComponent({
 
   data() {
     return {
-      logo: require("../assets/raisin.png")
+      logo: require("../assets/images/raisin.png")
     }
   }
 })
@@ -56,7 +56,7 @@ export default defineComponent({
 }
 
 .first-col {
-  background-image: url(../assets/vino.jpg);
+  background-image: url(../assets/images/vino.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
