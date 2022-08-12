@@ -1,2 +1,5 @@
 # Vino
-Web app made with Vue3 and Vuetify
+Simple UI made with Vue3 and Vuetify
+
+
+![Vino](./src/assets/images/vino.png)
