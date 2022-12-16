@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "sv": "vite preview --host localhost",
+    "sv": "vite",
     "serve": "vue-cli-service serve --skip-plugins @vue/cli-plugin-eslint",
     "build": "vite build",
     "test:unit": "vue-cli-service test:unit",
